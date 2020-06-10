@@ -2,13 +2,14 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-console.log(`Eingeloggt als ${client.user.tag}`);
+console.log(`Logged in as ${client.user.tag}!`);
+console.log("lol")
 
-client.user.setActivity(`TEXT`, {
-type: "STREAMING",
-url: ""})
-    .then(presence => console.log(`dein Status wurde erfolgreic>
+client.user.setActivity(`Eclipse IDE`, {
+type: "PLAYING",
+url: "https://www.twitch.tv/zVerclxktlP"})
+    .then(presence => console.log(`node lol`))
     .catch(console.error);
 });
 
-client.login('YOUR_TOKEN');
+client.login('NTkxNTM4NzIzOTAwODgyOTQ0.XuDxPw.wkb-o35f_wfcer74zlSALdpxPqE');
