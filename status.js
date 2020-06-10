@@ -12,4 +12,4 @@ url: "https://www.twitch.tv/zVerclxktlP"})
     .catch(console.error);
 });
 
-client.login('NTkxNTM4NzIzOTAwODgyOTQ0.XuDysA.danxnQUIsPk-YNfF2LVa2kG8BdY');
+client.login('NTkxNTM4NzIzOTAwODgyOTQ0.XuD4gA.sdFo3YArQrO7kFASJRWjwW4Idnw');
